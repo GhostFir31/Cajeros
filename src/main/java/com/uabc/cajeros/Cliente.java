@@ -13,14 +13,19 @@ import java.util.Random;
 public class Cliente {
 
     Random rand = new Random();
-
+    
     private int numArticulos;
-
+    private boolean clienteImagen;
 
     public Cliente() {
 
         this.numArticulos = rand.nextInt(21) + 1;
+        this.clienteImagen=rand.nextBoolean();
         
+    }
+
+    public boolean isClienteImagen() {
+        return clienteImagen;
     }
 
     public int getNumArticulos() {

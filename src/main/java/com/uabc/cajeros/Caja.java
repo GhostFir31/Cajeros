@@ -15,13 +15,13 @@ import java.util.Random;
 public class Caja {
 
     private Queue<Cliente> cola;
-    
+    private Random random= new Random();
     private boolean tipoCaja; // false 1-10 CAJA R // true 11+ CAJA N
     private int tiempoPagar;  // tiempo para pagar en caja // depende de tipo de caja
     private int tiempoLlegada;
     private int ID;
     private int tiempoVacia;
-    
+    private final boolean cajaImagen;
     
     
     public Caja(boolean tipoCaja,int ID) {
@@ -38,6 +38,12 @@ public class Caja {
         
         this.tiempoVacia=0;
         
+        this.cajaImagen=random.nextBoolean();
+        
+    }
+
+    public boolean isCajaImagen() {
+        return cajaImagen;
     }
     
     public Queue<Cliente> getCola() {

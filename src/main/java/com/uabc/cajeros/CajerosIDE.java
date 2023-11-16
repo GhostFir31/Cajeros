@@ -26,6 +26,9 @@ public class CajerosIDE extends javax.swing.JFrame {
     private int tiempoSimulacion = PantallaInicio.getTiempoSimulacion();
     private ArrayList<Caja> cajerosAbiertos = new ArrayList<>();
     private int registroID = 1;
+    private int numCajasNuevas = 0;
+    private int MAXCAJASR = 3;
+    private int MAXCAJASN = 10;
 
     public CajerosIDE() {
         initComponents();
@@ -550,7 +553,7 @@ public class CajerosIDE extends javax.swing.JFrame {
 
     }
 
-    public JLabel obtenerClientesCajasRapidas(int indice) {
+    /*  public JLabel obtenerClientesCajasRapidas(int indice) {
 
         switch (indice) {
             case 1:
@@ -588,110 +591,140 @@ public class CajerosIDE extends javax.swing.JFrame {
                 throw new IllegalArgumentException("Indice Fuera de Rango");
         }
 
-    }
-
-    public JLabel obtenerClientesCajasNormales(int indice) {
+    }*/
+    public JLabel obtenerClientes(int indice) {
 
         switch (indice) {
+
             case 1:
-                return ClienteN11;
+                return ClienteR11;
             case 2:
-                return ClienteN12;
+                return ClienteR12;
             case 3:
-                return ClienteN13;
+                return ClienteR13;
             case 4:
-                return ClienteN14;
+                return ClienteR14;
             case 5:
-                return ClienteN15;
+                return ClienteR15;
             case 6:
-                return ClienteN21;
+                return ClienteR21;
             case 7:
-                return ClienteN22;
+                return ClienteR22;
             case 8:
-                return ClienteN23;
+                return ClienteR23;
             case 9:
-                return ClienteN24;
+                return ClienteR24;
             case 10:
-                return ClienteN25;
+                return ClienteR25;
             case 11:
-                return ClienteN31;
+                return ClienteR31;
             case 12:
-                return ClienteN32;
+                return ClienteR32;
             case 13:
-                return ClienteN33;
+                return ClienteR33;
             case 14:
-                return ClienteN34;
+                return ClienteR34;
             case 15:
-                return ClienteN35;
+                return ClienteR35;
             case 16:
-                return ClienteN41;
+                return ClienteN11;
             case 17:
-                return ClienteN42;
+                return ClienteN12;
             case 18:
-                return ClienteN43;
+                return ClienteN13;
             case 19:
-                return ClienteN44;
+                return ClienteN14;
             case 20:
-                return ClienteN45;
+                return ClienteN15;
             case 21:
-                return ClienteN51;
+                return ClienteN21;
             case 22:
-                return ClienteN52;
+                return ClienteN22;
             case 23:
-                return ClienteN53;
+                return ClienteN23;
             case 24:
-                return ClienteN54;
+                return ClienteN24;
             case 25:
-                return ClienteN55;
+                return ClienteN25;
             case 26:
-                return ClienteN61;
+                return ClienteN31;
             case 27:
-                return ClienteN62;
+                return ClienteN32;
             case 28:
-                return ClienteN63;
+                return ClienteN33;
             case 29:
-                return ClienteN64;
+                return ClienteN34;
             case 30:
-                return ClienteN65;
+                return ClienteN35;
             case 31:
-                return ClienteN71;
+                return ClienteN41;
             case 32:
-                return ClienteN72;
+                return ClienteN42;
             case 33:
-                return ClienteN73;
+                return ClienteN43;
             case 34:
-                return ClienteN74;
+                return ClienteN44;
             case 35:
-                return ClienteN75;
+                return ClienteN45;
             case 36:
-                return ClienteN81;
+                return ClienteN51;
             case 37:
-                return ClienteN82;
+                return ClienteN52;
             case 38:
-                return ClienteN83;
+                return ClienteN53;
             case 39:
-                return ClienteN84;
+                return ClienteN54;
             case 40:
-                return ClienteN85;
+                return ClienteN55;
             case 41:
-                return ClienteN91;
+                return ClienteN61;
             case 42:
-                return ClienteN92;
+                return ClienteN62;
             case 43:
-                return ClienteN93;
+                return ClienteN63;
             case 44:
-                return ClienteN94;
+                return ClienteN64;
             case 45:
-                return ClienteN95;
+                return ClienteN65;
             case 46:
-                return ClienteN101;
+                return ClienteN71;
             case 47:
-                return ClienteN102;
+                return ClienteN72;
             case 48:
-                return ClienteN103;
+                return ClienteN73;
             case 49:
-                return ClienteN104;
+                return ClienteN74;
             case 50:
+                return ClienteN75;
+            case 51:
+                return ClienteN81;
+            case 52:
+                return ClienteN82;
+            case 53:
+                return ClienteN83;
+            case 54:
+                return ClienteN84;
+            case 55:
+                return ClienteN85;
+            case 56:
+                return ClienteN91;
+            case 57:
+                return ClienteN92;
+            case 58:
+                return ClienteN93;
+            case 59:
+                return ClienteN94;
+            case 60:
+                return ClienteN95;
+            case 61:
+                return ClienteN101;
+            case 62:
+                return ClienteN102;
+            case 63:
+                return ClienteN103;
+            case 64:
+                return ClienteN104;
+            case 65:
                 return ClienteN105;
 
             default:
@@ -719,67 +752,57 @@ public class CajerosIDE extends javax.swing.JFrame {
             setImagen(obtenerCajas(i), "assets\\\\cajeroCerrado.png");
         }
 
-        for (int i = 1; i <= 15; i++) {
-            setImagen(obtenerClientesCajasRapidas(i), "assets\\\\ausente.png");
-        }
-
-        for (int i = 1; i <= 50; i++) {
-            setImagen(obtenerClientesCajasNormales(i), "assets\\\\ausente.png");
+        for (int i = 1; i <= 65; i++) {
+            setImagen(obtenerClientes(i), "assets\\\\ausente.png");
         }
 
     }
 
-    private void generarCajeroImagen(int indice) {
+    private void imprimirCajeroImagen(int indice, Caja caja) {
 
-        Random random = new Random();
-
-        if (random.nextBoolean()) {
-            
+        if (caja.isCajaImagen()) {
+            obtenerCajas(indice).setText(""+caja.isTipoCaja());
             setImagen(obtenerCajas(indice), "assets\\\\cajeroaux2.png");
+            
         } else {
+            obtenerCajas(indice).setText(""+caja.isTipoCaja());
             setImagen(obtenerCajas(indice), "assets\\\\cajeroaux1.png");
         }
 
     }
 
-    private void generarClienteCajaRapidaImagen(int indice) {
+    private void imprimirClienteImagen(int indice, Cliente cliente) {
 
-        Random random = new Random();
-
-        if (random.nextBoolean()) {
-            setImagen(obtenerClientesCajasRapidas(indice), "assets\\\\cajeroaux2.png");
+        if (cliente.isClienteImagen()) {
+            obtenerClientes(indice).setText(""+cliente.getNumArticulos());
+            setImagen(obtenerClientes(indice), "assets\\\\cliente2.png");
         } else {
-            setImagen(obtenerClientesCajasRapidas(indice), "assets\\\\cajeroaux1.png");
+            obtenerClientes(indice).setText(""+cliente.getNumArticulos());
+            setImagen(obtenerClientes(indice), "assets\\\\cliente1.png");
         }
-
-    }
-
-    private void generarClienteCajaNormalImagen(int indice) {
-
-        Random random = new Random();
-
-        if (random.nextBoolean()) {
-            setImagen(obtenerClientesCajasNormales(indice), "assets\\\\cajeroaux2.png");
-        } else {
-            setImagen(obtenerClientesCajasNormales(indice), "assets\\\\cajeroaux1.png");
-        }
-
     }
 
     private void imprimirCajas() {
-        for(int i=1;i<cajerosAbiertos.size();i++){
-            
+
+        for (int i = 0; i < cajerosAbiertos.size(); i++) {
+            imprimirCajeroImagen(i + 1, cajerosAbiertos.get(i));
         }
     }
 
     private void imprimirCliente(Queue<Cliente> cola) {
 
+        int i = 1;
+
+        for (Cliente cliente : cola) {
+            imprimirClienteImagen(i++, cliente);
+        }
+
     }
 
     private void crearCajaNueva(Cliente cliente) {
         registroID++;
-        Caja nuevaCaja = new Caja(cajerosAbiertos.get(cajerosAbiertos.size() + 1).isTipoCaja(), registroID);
-        nuevaCaja.getCola().add(cliente);
+        Caja nuevaCaja = new Caja(cajerosAbiertos.get(numCajasNuevas).isTipoCaja(), registroID);
+        numCajasNuevas++;
         cajerosAbiertos.add(nuevaCaja);
         System.out.println("Numero de Cajas Abiertas= " + cajerosAbiertos.size());
     }
@@ -826,13 +849,11 @@ public class CajerosIDE extends javax.swing.JFrame {
             public void run() {
 
                 System.out.println("Tiempo Restante=" + tiempoSimulacion);
-
+                imprimirCajas();
                 for (Caja caja : cajerosAbiertos) {
-                    
-                    
-                    
-                    crearCliente(caja);
 
+                    crearCliente(caja);
+                    imprimirCliente(caja.getCola());
                 }
 
                 if (tiempoSimulacion <= 0) {
