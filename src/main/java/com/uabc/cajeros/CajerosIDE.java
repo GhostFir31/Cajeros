@@ -29,6 +29,7 @@ public class CajerosIDE extends javax.swing.JFrame {
     private int numCajasNuevas = 0;
     private int MAXCAJASR = 3;
     private int MAXCAJASN = 10;
+    private boolean firstRun = true;
 
     public CajerosIDE() {
         initComponents();
@@ -222,250 +223,107 @@ public class CajerosIDE extends javax.swing.JFrame {
         InterfazPanel.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 40, -1, -1));
 
         CajaR1.setBackground(new java.awt.Color(255, 255, 255));
-        CajaR1.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux1.png")); // NOI18N
         InterfazPanel.add(CajaR1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, 60));
 
         CajaR2.setBackground(new java.awt.Color(255, 255, 255));
-        CajaR2.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux1.png")); // NOI18N
         InterfazPanel.add(CajaR2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 60, -1, 60));
 
         CajaR3.setBackground(new java.awt.Color(255, 255, 255));
-        CajaR3.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux2.png")); // NOI18N
         InterfazPanel.add(CajaR3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, -1, 60));
 
         CajaN1.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN1.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux1.png")); // NOI18N
         InterfazPanel.add(CajaN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 60, -1, 60));
 
         CajaN2.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN2.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux1.png")); // NOI18N
         InterfazPanel.add(CajaN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 60, -1, 60));
 
         CajaN3.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN3.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux2.png")); // NOI18N
         InterfazPanel.add(CajaN3, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 60, -1, 60));
 
         CajaN4.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN4.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux2.png")); // NOI18N
         InterfazPanel.add(CajaN4, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 60, -1, 60));
 
         CajaN5.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN5.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux2.png")); // NOI18N
         InterfazPanel.add(CajaN5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 60, -1, 60));
 
         CajaN6.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN6.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux1.png")); // NOI18N
         InterfazPanel.add(CajaN6, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 60, -1, 60));
 
         CajaN7.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN7.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux1.png")); // NOI18N
         InterfazPanel.add(CajaN7, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 60, -1, 60));
 
         CajaN8.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN8.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux2.png")); // NOI18N
         InterfazPanel.add(CajaN8, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 60, -1, 60));
 
         CajaN9.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN9.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux1.png")); // NOI18N
         InterfazPanel.add(CajaN9, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 60, -1, 60));
 
         CajaN10.setBackground(new java.awt.Color(255, 255, 255));
-        CajaN10.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cajeroaux2.png")); // NOI18N
         InterfazPanel.add(CajaN10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 60, -1, 60));
-
-        ClienteR11.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 70, 50));
-
-        ClienteR12.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteR12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 70, 50));
-
-        ClienteR13.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 70, 50));
-
-        ClienteR14.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 70, 50));
-
-        ClienteR15.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 70, 50));
-
-        ClienteR21.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteR21, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 70, 50));
-
-        ClienteR22.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR22, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 190, 70, 50));
-
-        ClienteR23.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteR23, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, 70, 50));
-
-        ClienteR24.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR24, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 310, 70, 50));
-
-        ClienteR25.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR25, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 370, 70, 50));
-
-        ClienteR31.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteR31, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 70, 50));
-
-        ClienteR32.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR32, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 70, 50));
-
-        ClienteR33.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR33, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 250, 70, 50));
-
-        ClienteR34.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR34, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 310, 70, 50));
-
-        ClienteR35.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteR35, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 370, 70, 50));
-
-        ClienteN11.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN11, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 130, 70, 50));
-
-        ClienteN12.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN12, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, 70, 50));
-
-        ClienteN13.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN13, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, 70, 50));
-
-        ClienteN14.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteN14, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 310, 70, 50));
-
-        ClienteN15.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN15, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 370, 70, 50));
-
-        ClienteN21.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN21, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 130, 70, 50));
-
-        ClienteN22.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN22, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 190, 70, 50));
-
-        ClienteN23.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN23, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 250, 70, 50));
-
-        ClienteN24.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN24, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 310, 70, 50));
-
-        ClienteN25.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteN25, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 370, 70, 50));
-
-        ClienteN31.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN31, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 130, 70, 50));
-
-        ClienteN32.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN32, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, 70, 50));
-
-        ClienteN33.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteN33, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 70, 50));
-
-        ClienteN34.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN34, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 310, 70, 50));
-
-        ClienteN35.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN35, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 370, 70, 50));
-
-        ClienteN41.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN41, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 130, 70, 50));
-
-        ClienteN42.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN42, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 190, 70, 50));
-
-        ClienteN43.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN43, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 250, 70, 50));
-
-        ClienteN44.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN44, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 310, 70, 50));
-
-        ClienteN45.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN45, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 370, 70, 50));
-
-        ClienteN51.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN51, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 130, 70, 50));
-
-        ClienteN52.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN52, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 190, 70, 50));
-
-        ClienteN53.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN53, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 250, 70, 50));
-
-        ClienteN54.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN54, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 310, 70, 50));
-
-        ClienteN55.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN55, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 370, 70, 50));
-
-        ClienteN61.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN61, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 130, 70, 50));
-
-        ClienteN62.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN62, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 190, 70, 50));
-
-        ClienteN63.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN63, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 250, 70, 50));
-
-        ClienteN64.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN64, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 310, 70, 50));
-
-        ClienteN65.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN65, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 370, 70, 50));
-
-        ClienteN71.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN71, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 130, 70, 50));
-
-        ClienteN72.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteN72, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 190, 70, 50));
-
-        ClienteN73.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN73, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 250, 70, 50));
-
-        ClienteN74.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteN74, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 310, 70, 50));
-
-        ClienteN75.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN75, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 370, 70, 50));
-
-        ClienteN81.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN81, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 130, 70, 50));
-
-        ClienteN82.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN82, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 190, 70, 50));
-
-        ClienteN83.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN83, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 250, 70, 50));
-
-        ClienteN84.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN84, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 310, 70, 50));
-
-        ClienteN85.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN85, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 370, 70, 50));
-
-        ClienteN91.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN91, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 130, 70, 50));
-
-        ClienteN92.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN92, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 190, 70, 50));
-
-        ClienteN93.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN93, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 250, 70, 50));
-
-        ClienteN94.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN94, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 310, 70, 50));
-
-        ClienteN95.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN95, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 370, 70, 50));
-
-        ClienteN101.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN101, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 130, 70, 50));
-
-        ClienteN102.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN102, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 190, 70, 50));
-
-        ClienteN103.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN103, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 250, 70, 50));
-
-        ClienteN104.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente2.png")); // NOI18N
         InterfazPanel.add(ClienteN104, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 310, 70, 50));
-
-        ClienteN105.setIcon(new javax.swing.ImageIcon("C:\\Users\\omar-\\OneDrive\\Documentos\\NetBeansProjects\\Cajeros\\src\\main\\java\\com\\uabc\\cajeros\\assets\\cliente1.png")); // NOI18N
         InterfazPanel.add(ClienteN105, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 370, 70, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -517,7 +375,7 @@ public class CajerosIDE extends javax.swing.JFrame {
         });
     }
 
-    public JLabel obtenerCajas(int indice) {
+    public JLabel obtenerCajaRapida(int indice) {
 
         switch (indice) {
             case 1:
@@ -526,25 +384,36 @@ public class CajerosIDE extends javax.swing.JFrame {
                 return CajaR2;
             case 3:
                 return CajaR3;
-            case 4:
+
+            default:
+                throw new IllegalArgumentException("Indice Fuera de Rango");
+        }
+
+    }
+
+    public JLabel obtenerCajaNormal(int indice) {
+
+        switch (indice) {
+
+            case 1:
                 return CajaN1;
-            case 5:
+            case 2:
                 return CajaN2;
-            case 6:
+            case 3:
                 return CajaN3;
-            case 7:
+            case 4:
                 return CajaN4;
-            case 8:
+            case 5:
                 return CajaN5;
-            case 9:
+            case 6:
                 return CajaN6;
-            case 10:
+            case 7:
                 return CajaN7;
-            case 11:
+            case 8:
                 return CajaN8;
-            case 12:
+            case 9:
                 return CajaN9;
-            case 13:
+            case 10:
                 return CajaN10;
 
             default:
@@ -553,7 +422,7 @@ public class CajerosIDE extends javax.swing.JFrame {
 
     }
 
-    /*  public JLabel obtenerClientesCajasRapidas(int indice) {
+    public JLabel obtenerClientesCajaRapida(int indice) {
 
         switch (indice) {
             case 1:
@@ -591,140 +460,111 @@ public class CajerosIDE extends javax.swing.JFrame {
                 throw new IllegalArgumentException("Indice Fuera de Rango");
         }
 
-    }*/
-    public JLabel obtenerClientes(int indice) {
+    }
+
+    public JLabel obtenerClientesCajaNormal(int indice) {
 
         switch (indice) {
 
             case 1:
-                return ClienteR11;
-            case 2:
-                return ClienteR12;
-            case 3:
-                return ClienteR13;
-            case 4:
-                return ClienteR14;
-            case 5:
-                return ClienteR15;
-            case 6:
-                return ClienteR21;
-            case 7:
-                return ClienteR22;
-            case 8:
-                return ClienteR23;
-            case 9:
-                return ClienteR24;
-            case 10:
-                return ClienteR25;
-            case 11:
-                return ClienteR31;
-            case 12:
-                return ClienteR32;
-            case 13:
-                return ClienteR33;
-            case 14:
-                return ClienteR34;
-            case 15:
-                return ClienteR35;
-            case 16:
                 return ClienteN11;
-            case 17:
+            case 2:
                 return ClienteN12;
-            case 18:
+            case 3:
                 return ClienteN13;
-            case 19:
+            case 4:
                 return ClienteN14;
-            case 20:
+            case 5:
                 return ClienteN15;
-            case 21:
+            case 6:
                 return ClienteN21;
-            case 22:
+            case 7:
                 return ClienteN22;
-            case 23:
+            case 8:
                 return ClienteN23;
-            case 24:
+            case 9:
                 return ClienteN24;
-            case 25:
+            case 10:
                 return ClienteN25;
-            case 26:
+            case 11:
                 return ClienteN31;
-            case 27:
+            case 12:
                 return ClienteN32;
-            case 28:
+            case 13:
                 return ClienteN33;
-            case 29:
+            case 14:
                 return ClienteN34;
-            case 30:
+            case 15:
                 return ClienteN35;
-            case 31:
+            case 16:
                 return ClienteN41;
-            case 32:
+            case 17:
                 return ClienteN42;
-            case 33:
+            case 18:
                 return ClienteN43;
-            case 34:
+            case 19:
                 return ClienteN44;
-            case 35:
+            case 20:
                 return ClienteN45;
-            case 36:
+            case 21:
                 return ClienteN51;
-            case 37:
+            case 22:
                 return ClienteN52;
-            case 38:
+            case 23:
                 return ClienteN53;
-            case 39:
+            case 24:
                 return ClienteN54;
-            case 40:
+            case 25:
                 return ClienteN55;
-            case 41:
+            case 26:
                 return ClienteN61;
-            case 42:
+            case 27:
                 return ClienteN62;
-            case 43:
+            case 28:
                 return ClienteN63;
-            case 44:
+            case 29:
                 return ClienteN64;
-            case 45:
+            case 30:
                 return ClienteN65;
-            case 46:
+            case 31:
                 return ClienteN71;
-            case 47:
+            case 32:
                 return ClienteN72;
-            case 48:
+            case 33:
                 return ClienteN73;
-            case 49:
+            case 34:
                 return ClienteN74;
-            case 50:
+            case 35:
                 return ClienteN75;
-            case 51:
+            case 36:
                 return ClienteN81;
-            case 52:
+            case 37:
                 return ClienteN82;
-            case 53:
+            case 38:
                 return ClienteN83;
-            case 54:
+            case 39:
                 return ClienteN84;
-            case 55:
+            case 40:
                 return ClienteN85;
-            case 56:
+            case 41:
                 return ClienteN91;
-            case 57:
+            case 42:
                 return ClienteN92;
-            case 58:
+            case 43:
                 return ClienteN93;
-            case 59:
+            case 44:
                 return ClienteN94;
-            case 60:
+            case 45:
                 return ClienteN95;
-            case 61:
+            case 46:
                 return ClienteN101;
-            case 62:
+            case 47:
                 return ClienteN102;
-            case 63:
+            case 48:
                 return ClienteN103;
-            case 64:
+            case 49:
                 return ClienteN104;
-            case 65:
+            case 50:
                 return ClienteN105;
 
             default:
@@ -748,38 +588,63 @@ public class CajerosIDE extends javax.swing.JFrame {
     }
 
     private void limpiarLabels() {
-        for (int i = 1; i <= 13; i++) {
-            setImagen(obtenerCajas(i), "assets\\\\cajeroCerrado.png");
+        for (int i = 1; i <= 3; i++) {
+            setImagen(obtenerCajaRapida(i), "assets\\\\cajeroCerrado.png");
+        }
+        for (int i = 1; i <= 10; i++) {
+            setImagen(obtenerCajaNormal(i), "assets\\\\cajeroCerrado.png");
+        }
+        for (int i = 1; i <= 15; i++) {
+            setImagen(obtenerClientesCajaRapida(i), "assets\\\\ausente.png");
         }
 
-        for (int i = 1; i <= 65; i++) {
-            setImagen(obtenerClientes(i), "assets\\\\ausente.png");
+        for (int i = 1; i <= 50; i++) {
+            setImagen(obtenerClientesCajaNormal(i), "assets\\\\ausente.png");
         }
 
     }
 
     private void imprimirCajeroImagen(int indice, Caja caja) {
+        String ruta = null;
 
         if (caja.isCajaImagen()) {
-            obtenerCajas(indice).setText(""+caja.isTipoCaja());
-            setImagen(obtenerCajas(indice), "assets\\\\cajeroaux2.png");
-            
+
+            ruta = "assets\\\\cajeroaux2.png";
+
         } else {
-            obtenerCajas(indice).setText(""+caja.isTipoCaja());
-            setImagen(obtenerCajas(indice), "assets\\\\cajeroaux1.png");
+            ruta = "assets\\\\cajeroaux1.png";
         }
 
+ 
+            if (!caja.isTipoCaja()) {
+                obtenerCajaRapida(indice).setText("" + caja.isTipoCaja());
+                setImagen(obtenerCajaRapida(indice), ruta);
+            } else {
+                obtenerCajaNormal(indice-1).setText("" + caja.isTipoCaja());
+                setImagen(obtenerCajaNormal(indice-1), ruta);
+            }
+ 
     }
 
     private void imprimirClienteImagen(int indice, Cliente cliente) {
+        String ruta = null;
 
         if (cliente.isClienteImagen()) {
-            obtenerClientes(indice).setText(""+cliente.getNumArticulos());
-            setImagen(obtenerClientes(indice), "assets\\\\cliente2.png");
+
+            ruta = "assets\\\\cliente2.png";
+
         } else {
-            obtenerClientes(indice).setText(""+cliente.getNumArticulos());
-            setImagen(obtenerClientes(indice), "assets\\\\cliente1.png");
+            ruta = "assets\\\\cliente1.png";
         }
+
+        if (cliente.getNumArticulos() <= 10) {
+            obtenerClientesCajaRapida(indice).setText("" + cliente.getNumArticulos());
+            setImagen(obtenerClientesCajaRapida(indice), ruta);
+        } else {
+            obtenerClientesCajaNormal(indice).setText("" + cliente.getNumArticulos());
+            setImagen(obtenerClientesCajaNormal(indice), ruta);
+        }
+
     }
 
     private void imprimirCajas() {
@@ -798,7 +663,7 @@ public class CajerosIDE extends javax.swing.JFrame {
         }
 
     }
-
+//error al crear una caja nueva
     private void crearCajaNueva(Cliente cliente) {
         registroID++;
         Caja nuevaCaja = new Caja(cajerosAbiertos.get(numCajasNuevas).isTipoCaja(), registroID);

@@ -267,9 +267,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux1.png"/>
-            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -281,9 +278,6 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -297,9 +291,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux2.png"/>
-            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -311,9 +302,6 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -327,9 +315,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux1.png"/>
-            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -341,9 +326,6 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux2.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -357,9 +339,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux2.png"/>
-            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -371,9 +350,6 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux2.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -387,9 +363,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux1.png"/>
-            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -401,9 +374,6 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -417,9 +387,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux2.png"/>
-            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -431,9 +398,6 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -447,9 +411,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cajeroaux2.png"/>
-            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -458,11 +419,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR11">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="130" width="70" height="50"/>
@@ -470,11 +426,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR12">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="190" width="70" height="50"/>
@@ -482,11 +433,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR13">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="250" width="70" height="50"/>
@@ -494,11 +440,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR14">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="310" width="70" height="50"/>
@@ -506,11 +447,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR15">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="370" width="70" height="50"/>
@@ -518,11 +454,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR21">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="110" y="130" width="70" height="50"/>
@@ -530,11 +461,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR22">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="110" y="190" width="70" height="50"/>
@@ -542,11 +468,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR23">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="110" y="250" width="70" height="50"/>
@@ -554,11 +475,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR24">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="110" y="310" width="70" height="50"/>
@@ -566,11 +482,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR25">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="110" y="370" width="70" height="50"/>
@@ -578,11 +489,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR31">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="210" y="130" width="70" height="50"/>
@@ -590,11 +496,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR32">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="210" y="190" width="70" height="50"/>
@@ -602,11 +503,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR33">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="210" y="250" width="70" height="50"/>
@@ -614,11 +510,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR34">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="210" y="310" width="70" height="50"/>
@@ -626,11 +517,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteR35">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="210" y="370" width="70" height="50"/>
@@ -638,11 +524,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN11">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="320" y="130" width="70" height="50"/>
@@ -650,11 +531,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN12">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="320" y="190" width="70" height="50"/>
@@ -662,11 +538,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN13">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="320" y="250" width="70" height="50"/>
@@ -674,11 +545,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN14">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="320" y="310" width="70" height="50"/>
@@ -686,11 +552,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN15">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="320" y="370" width="70" height="50"/>
@@ -698,11 +559,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN21">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="410" y="130" width="70" height="50"/>
@@ -710,11 +566,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN22">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="410" y="190" width="70" height="50"/>
@@ -722,11 +573,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN23">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="410" y="250" width="70" height="50"/>
@@ -734,11 +580,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN24">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="410" y="310" width="70" height="50"/>
@@ -746,11 +587,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN25">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="410" y="370" width="70" height="50"/>
@@ -758,11 +594,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN31">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="130" width="70" height="50"/>
@@ -770,11 +601,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN32">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="190" width="70" height="50"/>
@@ -782,11 +608,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN33">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="250" width="70" height="50"/>
@@ -794,11 +615,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN34">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="310" width="70" height="50"/>
@@ -806,11 +622,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN35">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="370" width="70" height="50"/>
@@ -818,11 +629,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN41">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="570" y="130" width="70" height="50"/>
@@ -830,11 +636,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN42">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="570" y="190" width="70" height="50"/>
@@ -842,11 +643,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN43">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="570" y="250" width="70" height="50"/>
@@ -854,11 +650,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN44">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="570" y="310" width="70" height="50"/>
@@ -866,11 +657,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN45">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="570" y="370" width="70" height="50"/>
@@ -878,11 +664,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN51">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="650" y="130" width="70" height="50"/>
@@ -890,11 +671,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN52">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="650" y="190" width="70" height="50"/>
@@ -902,11 +678,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN53">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="650" y="250" width="70" height="50"/>
@@ -914,11 +685,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN54">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="650" y="310" width="70" height="50"/>
@@ -926,11 +692,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN55">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="650" y="370" width="70" height="50"/>
@@ -938,11 +699,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN61">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="130" width="70" height="50"/>
@@ -950,11 +706,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN62">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="190" width="70" height="50"/>
@@ -962,11 +713,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN63">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="250" width="70" height="50"/>
@@ -974,11 +720,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN64">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="310" width="70" height="50"/>
@@ -986,11 +727,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN65">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="370" width="70" height="50"/>
@@ -998,11 +734,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN71">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="810" y="130" width="70" height="50"/>
@@ -1010,11 +741,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN72">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="810" y="190" width="70" height="50"/>
@@ -1022,11 +748,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN73">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="810" y="250" width="70" height="50"/>
@@ -1034,11 +755,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN74">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="810" y="310" width="70" height="50"/>
@@ -1046,11 +762,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN75">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="810" y="370" width="70" height="50"/>
@@ -1058,11 +769,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN81">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="890" y="130" width="70" height="50"/>
@@ -1070,11 +776,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN82">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="890" y="190" width="70" height="50"/>
@@ -1082,11 +783,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN83">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="890" y="250" width="70" height="50"/>
@@ -1094,11 +790,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN84">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="890" y="310" width="70" height="50"/>
@@ -1106,11 +797,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN85">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="890" y="370" width="70" height="50"/>
@@ -1118,11 +804,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN91">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="970" y="130" width="70" height="50"/>
@@ -1130,11 +811,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN92">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="970" y="190" width="70" height="50"/>
@@ -1142,11 +818,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN93">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="970" y="250" width="70" height="50"/>
@@ -1154,11 +825,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN94">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="970" y="310" width="70" height="50"/>
@@ -1166,11 +832,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN95">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="970" y="370" width="70" height="50"/>
@@ -1178,11 +839,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN101">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="1050" y="130" width="70" height="50"/>
@@ -1190,11 +846,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN102">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="1050" y="190" width="70" height="50"/>
@@ -1202,11 +853,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN103">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="1050" y="250" width="70" height="50"/>
@@ -1214,11 +860,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN104">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="1050" y="310" width="70" height="50"/>
@@ -1226,11 +867,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="ClienteN105">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\omar-\OneDrive\Documentos\NetBeansProjects\Cajeros\src\main\java\com\uabc\cajeros\assets\cliente1.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="1050" y="370" width="70" height="50"/>
