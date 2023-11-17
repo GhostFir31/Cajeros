@@ -24,10 +24,8 @@ public class Caja {
     private final boolean cajaImagen;
     
     
-    public Caja(boolean tipoCaja,int ID) {
-        
-        this.ID=ID;
-        
+    public Caja(boolean tipoCaja) {
+              
         this.tipoCaja = tipoCaja;
         
         this.cola = new LinkedList();

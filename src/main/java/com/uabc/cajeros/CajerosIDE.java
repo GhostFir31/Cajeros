@@ -6,6 +6,7 @@ package com.uabc.cajeros;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Queue;
 import java.util.Random;
 import java.util.Timer;
@@ -24,9 +25,11 @@ public class CajerosIDE extends javax.swing.JFrame {
      * Creates new form CajerosIDE
      */
     private int tiempoSimulacion = PantallaInicio.getTiempoSimulacion();
-    private ArrayList<Caja> cajerosAbiertos = new ArrayList<>();
+
+    private ArrayList<Caja> cajerosRapidosAbiertos = new ArrayList<>();
+    private ArrayList<Caja> cajerosNormalesAbiertos = new ArrayList<>();
+
     private int registroID = 1;
-    private int numCajasNuevas = 0;
     private int MAXCAJASR = 3;
     private int MAXCAJASN = 10;
     private boolean firstRun = true;
@@ -604,6 +607,21 @@ public class CajerosIDE extends javax.swing.JFrame {
 
     }
 
+    private void imprimirCajas() {
+
+        for (int i = 1; i < cajerosRapidosAbiertos.size(); i++) {
+
+            imprimirCajeroImagen(i, cajerosRapidosAbiertos.get(i));
+
+        }
+
+        for (int j = 1; j < cajerosNormalesAbiertos.size(); j++) {
+
+            imprimirCajeroImagen(j, cajerosNormalesAbiertos.get(j));
+
+        }
+    }
+
     private void imprimirCajeroImagen(int indice, Caja caja) {
         String ruta = null;
 
@@ -615,15 +633,23 @@ public class CajerosIDE extends javax.swing.JFrame {
             ruta = "assets\\\\cajeroaux1.png";
         }
 
- 
-            if (!caja.isTipoCaja()) {
-                obtenerCajaRapida(indice).setText("" + caja.isTipoCaja());
-                setImagen(obtenerCajaRapida(indice), ruta);
-            } else {
-                obtenerCajaNormal(indice-1).setText("" + caja.isTipoCaja());
-                setImagen(obtenerCajaNormal(indice-1), ruta);
-            }
- 
+        if (!caja.isTipoCaja()) {
+
+            obtenerCajaRapida(indice).setText("" + caja.isTipoCaja());
+
+            setImagen(obtenerCajaRapida(indice), ruta);
+
+        } else {
+
+            obtenerCajaNormal(indice).setText("" + caja.isTipoCaja());
+
+            setImagen(obtenerCajaNormal(indice), ruta);
+        }
+
+    }
+
+    private void imprimirCliente() {
+
     }
 
     private void imprimirClienteImagen(int indice, Cliente cliente) {
@@ -638,58 +664,64 @@ public class CajerosIDE extends javax.swing.JFrame {
         }
 
         if (cliente.getNumArticulos() <= 10) {
+
             obtenerClientesCajaRapida(indice).setText("" + cliente.getNumArticulos());
+
             setImagen(obtenerClientesCajaRapida(indice), ruta);
+
         } else {
+
             obtenerClientesCajaNormal(indice).setText("" + cliente.getNumArticulos());
+
             setImagen(obtenerClientesCajaNormal(indice), ruta);
+
         }
 
     }
 
-    private void imprimirCajas() {
-
-        for (int i = 0; i < cajerosAbiertos.size(); i++) {
-            imprimirCajeroImagen(i + 1, cajerosAbiertos.get(i));
-        }
-    }
-
-    private void imprimirCliente(Queue<Cliente> cola) {
-
-        int i = 1;
-
-        for (Cliente cliente : cola) {
-            imprimirClienteImagen(i++, cliente);
-        }
-
-    }
-//error al crear una caja nueva
-    private void crearCajaNueva(Cliente cliente) {
-        registroID++;
-        Caja nuevaCaja = new Caja(cajerosAbiertos.get(numCajasNuevas).isTipoCaja(), registroID);
-        numCajasNuevas++;
-        cajerosAbiertos.add(nuevaCaja);
-        System.out.println("Numero de Cajas Abiertas= " + cajerosAbiertos.size());
-    }
-
-    private void crearCliente(Caja cajaActual) {
+    private void crearCliente() {
 
         Cliente cliente = new Cliente();
 
-        if (cliente.getNumArticulos() <= 10 && !cajaActual.isTipoCaja()) {
-            if (cajaActual.getCola().size() < 5) {
+        if (cliente.getNumArticulos() <= 10) {
 
-                cajaActual.getCola().add(cliente);
+            asignarClienteACaja(cajerosRapidosAbiertos, cliente);
 
-            } else {
-                crearCajaNueva(cliente);
-            }
-        } else if (cliente.getNumArticulos() >= 11 && cajaActual.isTipoCaja()) {
-            if (cajaActual.getCola().size() < 5) {
-                cajaActual.getCola().add(cliente);
-            } else {
-                crearCajaNueva(cliente);
-            }
+        } else {
+
+            asignarClienteACaja(cajerosNormalesAbiertos, cliente);
+
+        }
+    }
+
+    private void asignarClienteACaja(ArrayList<Caja> cajas, Cliente cliente) {
+
+        Random random = new Random();
+
+        int indiceCaja = random.nextInt(cajas.size());
+
+        Caja cajaActual = cajas.get(indiceCaja);
+
+        if (cajaActual.getCola().size() <= 5) {
+
+            cajaActual.getCola().add(cliente);
+
+        } else {
+
+            crearCajaNueva(cliente);
+        }
+    }
+
+    private void crearCajaNueva(Cliente cliente) {
+
+        Caja nuevaCaja = new Caja(cliente.getNumArticulos() <= 10);
+
+        nuevaCaja.getCola().add(cliente);
+
+        if (cliente.getNumArticulos() <= 10) {
+            cajerosRapidosAbiertos.add(nuevaCaja);
+        } else {
+            cajerosNormalesAbiertos.add(nuevaCaja);
         }
 
     }
@@ -703,9 +735,9 @@ public class CajerosIDE extends javax.swing.JFrame {
     private void iniciarSimulacion() {
 
         //Aqui empieza la simulacion 
-        cajerosAbiertos.add(new Caja(false, registroID));
-        registroID++;
-        cajerosAbiertos.add(new Caja(true, registroID));
+        cajerosRapidosAbiertos.add(new Caja(false));
+
+        cajerosNormalesAbiertos.add(new Caja(true));
 
         Timer timer = new Timer();
 
@@ -714,13 +746,21 @@ public class CajerosIDE extends javax.swing.JFrame {
             public void run() {
 
                 System.out.println("Tiempo Restante=" + tiempoSimulacion);
+
                 imprimirCajas();
-                for (Caja caja : cajerosAbiertos) {
 
-                    crearCliente(caja);
+                crearCliente();
+
+                for (Caja caja : cajerosRapidosAbiertos) {
+
                     imprimirCliente(caja.getCola());
-                }
 
+                }
+                for (Caja caja : cajerosNormalesAbiertos) {
+
+                    imprimirCliente(caja.getCola());
+
+                }
                 if (tiempoSimulacion <= 0) {
 
                     timer.cancel();
