@@ -607,19 +607,19 @@ public class CajerosIDE extends javax.swing.JFrame {
 
     }
 
-    private void imprimirCajas() {
+    private void imprimirCajas(int i, int j) {
 
-        for (int i = 1; i < cajerosRapidosAbiertos.size(); i++) {
+       
 
             imprimirCajeroImagen(i, cajerosRapidosAbiertos.get(i));
 
-        }
+        
 
-        for (int j = 1; j < cajerosNormalesAbiertos.size(); j++) {
+        
 
             imprimirCajeroImagen(j, cajerosNormalesAbiertos.get(j));
 
-        }
+        
     }
 
     private void imprimirCajeroImagen(int indice, Caja caja) {
@@ -739,8 +739,8 @@ public class CajerosIDE extends javax.swing.JFrame {
 
         cajerosNormalesAbiertos.add(new Caja(true));
 
-        Timer timer = new Timer();
-
+        Timer timer = new Timer();  
+        
         TimerTask ejecutar = new TimerTask() {
             @Override
             public void run() {
@@ -753,12 +753,12 @@ public class CajerosIDE extends javax.swing.JFrame {
 
                 for (Caja caja : cajerosRapidosAbiertos) {
 
-                    imprimirCliente(caja.getCola());
+                    imprimirCliente();
 
                 }
                 for (Caja caja : cajerosNormalesAbiertos) {
 
-                    imprimirCliente(caja.getCola());
+                    imprimirCliente();
 
                 }
                 if (tiempoSimulacion <= 0) {
