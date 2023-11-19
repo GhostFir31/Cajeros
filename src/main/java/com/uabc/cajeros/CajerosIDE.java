@@ -35,6 +35,7 @@ public class CajerosIDE extends javax.swing.JFrame {
     private boolean firstRun = true;
 
     public CajerosIDE() {
+
         initComponents();
         System.out.println("El tiempo introducido es:" + tiempoSimulacion);
         limpiarLabels();
@@ -150,7 +151,6 @@ public class CajerosIDE extends javax.swing.JFrame {
         InterfazPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel2.setForeground(new java.awt.Color(0, 0, 0));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -163,7 +163,7 @@ public class CajerosIDE extends javax.swing.JFrame {
             .addGap(0, 430, Short.MAX_VALUE)
         );
 
-        InterfazPanel.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 0, 10, 430));
+        InterfazPanel.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 10, 430));
 
         jLabel1.setFont(new java.awt.Font("Unispace", 0, 12)); // NOI18N
         jLabel1.setText("Cajas Rapidas");
@@ -592,34 +592,23 @@ public class CajerosIDE extends javax.swing.JFrame {
 
     private void limpiarLabels() {
         for (int i = 1; i <= 3; i++) {
-            setImagen(obtenerCajaRapida(i), "assets\\\\cajeroCerrado.png");
+            //setImagen(obtenerCajaRapida(i), "assets\\\\cajeroCerrado.png");
+            setImagen(obtenerCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
         }
         for (int i = 1; i <= 10; i++) {
-            setImagen(obtenerCajaNormal(i), "assets\\\\cajeroCerrado.png");
+            //setImagen(obtenerCajaNormal(i), "assets\\\\cajeroCerrado.png");
+            setImagen(obtenerCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
         }
         for (int i = 1; i <= 15; i++) {
-            setImagen(obtenerClientesCajaRapida(i), "assets\\\\ausente.png");
+            //setImagen(obtenerClientesCajaRapida(i), "assets\\\\ausente.png");
+            setImagen(obtenerClientesCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
         }
 
         for (int i = 1; i <= 50; i++) {
-            setImagen(obtenerClientesCajaNormal(i), "assets\\\\ausente.png");
+            // setImagen(obtenerClientesCajaNormal(i), "assets\\\\ausente.png");
+            setImagen(obtenerClientesCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
         }
 
-    }
-
-    private void imprimirCajas(int i, int j) {
-
-       
-
-            imprimirCajeroImagen(i, cajerosRapidosAbiertos.get(i));
-
-        
-
-        
-
-            imprimirCajeroImagen(j, cajerosNormalesAbiertos.get(j));
-
-        
     }
 
     private void imprimirCajeroImagen(int indice, Caja caja) {
@@ -627,10 +616,11 @@ public class CajerosIDE extends javax.swing.JFrame {
 
         if (caja.isCajaImagen()) {
 
-            ruta = "assets\\\\cajeroaux2.png";
-
+            //ruta = "assets\\\\cajeroaux2.png";
+            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroaux2.png";
         } else {
-            ruta = "assets\\\\cajeroaux1.png";
+            //ruta = "assets\\\\cajeroaux1.png";
+            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroaux1.png";
         }
 
         if (!caja.isTipoCaja()) {
@@ -657,10 +647,12 @@ public class CajerosIDE extends javax.swing.JFrame {
 
         if (cliente.isClienteImagen()) {
 
-            ruta = "assets\\\\cliente2.png";
+            //ruta = "assets\\\\cliente2.png";
+            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente2.png";
 
         } else {
-            ruta = "assets\\\\cliente1.png";
+            //ruta = "assets\\\\cliente1.png";
+            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente1.png";
         }
 
         if (cliente.getNumArticulos() <= 10) {
@@ -694,13 +686,13 @@ public class CajerosIDE extends javax.swing.JFrame {
         }
     }
 
-    private void asignarClienteACaja(ArrayList<Caja> cajas, Cliente cliente) {
+    private void asignarClienteACaja(ArrayList<Caja> cajerosAbiertos, Cliente cliente) {
 
         Random random = new Random();
 
-        int indiceCaja = random.nextInt(cajas.size());
+        int indiceCaja = random.nextInt(cajerosAbiertos.size());
 
-        Caja cajaActual = cajas.get(indiceCaja);
+        Caja cajaActual = cajerosAbiertos.get(indiceCaja);
 
         if (cajaActual.getCola().size() <= 5) {
 
@@ -709,6 +701,7 @@ public class CajerosIDE extends javax.swing.JFrame {
         } else {
 
             crearCajaNueva(cliente);
+            
         }
     }
 
@@ -716,14 +709,25 @@ public class CajerosIDE extends javax.swing.JFrame {
 
         Caja nuevaCaja = new Caja(cliente.getNumArticulos() <= 10);
 
-        nuevaCaja.getCola().add(cliente);
-
-        if (cliente.getNumArticulos() <= 10) {
+        if (cliente.getNumArticulos() <= 10 && cajerosRapidosAbiertos.size() < MAXCAJASR) {
+            nuevaCaja.getCola().add(cliente);
             cajerosRapidosAbiertos.add(nuevaCaja);
-        } else {
-            cajerosNormalesAbiertos.add(nuevaCaja);
+
+            imprimirCajeroImagen(cajerosRapidosAbiertos.size(), cajerosRapidosAbiertos.get(cajerosRapidosAbiertos.size() - 1));
+
+            System.out.println("numero cajeros rapidos abiertos" + cajerosRapidosAbiertos.size());
+
         }
 
+        if (cliente.getNumArticulos() >= 11 && cajerosNormalesAbiertos.size() < MAXCAJASN) {
+            nuevaCaja.getCola().add(cliente);
+            cajerosNormalesAbiertos.add(nuevaCaja);
+
+            imprimirCajeroImagen(cajerosNormalesAbiertos.size(), cajerosNormalesAbiertos.get(cajerosNormalesAbiertos.size() - 1));
+
+            System.out.println("numero cajeros normales abiertos" + cajerosNormalesAbiertos.size());
+
+        }
     }
 
     public void restarTiempo() {
@@ -736,31 +740,20 @@ public class CajerosIDE extends javax.swing.JFrame {
 
         //Aqui empieza la simulacion 
         cajerosRapidosAbiertos.add(new Caja(false));
-
+        imprimirCajeroImagen(1, cajerosRapidosAbiertos.get(0));
         cajerosNormalesAbiertos.add(new Caja(true));
+        imprimirCajeroImagen(1, cajerosNormalesAbiertos.get(0));
 
-        Timer timer = new Timer();  
-        
+        Timer timer = new Timer();
+
         TimerTask ejecutar = new TimerTask() {
             @Override
             public void run() {
 
                 System.out.println("Tiempo Restante=" + tiempoSimulacion);
 
-                imprimirCajas();
-
                 crearCliente();
 
-                for (Caja caja : cajerosRapidosAbiertos) {
-
-                    imprimirCliente();
-
-                }
-                for (Caja caja : cajerosNormalesAbiertos) {
-
-                    imprimirCliente();
-
-                }
                 if (tiempoSimulacion <= 0) {
 
                     timer.cancel();
