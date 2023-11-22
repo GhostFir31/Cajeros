@@ -425,6 +425,7 @@ public class CajerosIDE extends javax.swing.JFrame {
 
     }
 
+   
     public JLabel obtenerClientesCajaRapida(int indice) {
 
         switch (indice) {
@@ -575,69 +576,30 @@ public class CajerosIDE extends javax.swing.JFrame {
         }
 
     }
-
-    private void setImagen(JLabel label, String rutaImagen) {
-
-        File archivoImagen = new File(rutaImagen);
-
-        if (archivoImagen.exists()) {
-
-            label.setIcon(new ImageIcon(rutaImagen));
-
-        } else {
-
-            JOptionPane.showMessageDialog(this, "Imagen no encontrada", "ERROR", JOptionPane.ERROR_MESSAGE);
-        }
-    }
+     
 
     private void limpiarLabels() {
         for (int i = 1; i <= 3; i++) {
-            //setImagen(obtenerCajaRapida(i), "assets\\\\cajeroCerrado.png");
-            setImagen(obtenerCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
+            setImagen(obtenerCajaRapida(i), "assets\\\\cajeroCerrado.png");
+            //setImagen(obtenerCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
         }
         for (int i = 1; i <= 10; i++) {
-            //setImagen(obtenerCajaNormal(i), "assets\\\\cajeroCerrado.png");
-            setImagen(obtenerCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
+            setImagen(obtenerCajaNormal(i), "assets\\\\cajeroCerrado.png");
+            //setImagen(obtenerCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
         }
-        for (int i = 1; i <= 15; i++) {
-            //setImagen(obtenerClientesCajaRapida(i), "assets\\\\ausente.png");
-            setImagen(obtenerClientesCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
+          for (int i = 1; i <= 15; i++) {
+            setImagen(obtenerClientesCajaRapida(i), "assets\\\\ausente.png");
+            //setImagen(obtenerClientesCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
         }
 
         for (int i = 1; i <= 50; i++) {
-            // setImagen(obtenerClientesCajaNormal(i), "assets\\\\ausente.png");
-            setImagen(obtenerClientesCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
+             setImagen(obtenerClientesCajaNormal(i), "assets\\\\ausente.png");
+            //setImagen(obtenerClientesCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
         }
 
     }
 
-    private void imprimirCajeroImagen(int indice, Caja caja) {
-        String ruta = null;
-
-        if (caja.isCajaImagen()) {
-
-            //ruta = "assets\\\\cajeroaux2.png";
-            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroaux2.png";
-        } else {
-            //ruta = "assets\\\\cajeroaux1.png";
-            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroaux1.png";
-        }
-
-        if (!caja.isTipoCaja()) {
-
-            obtenerCajaRapida(indice).setText("" + caja.isTipoCaja());
-
-            setImagen(obtenerCajaRapida(indice), ruta);
-
-        } else {
-
-            obtenerCajaNormal(indice).setText("" + caja.isTipoCaja());
-
-            setImagen(obtenerCajaNormal(indice), ruta);
-        }
-
-    }
-
+    
     private void imprimirCliente() {
 
     }
@@ -647,12 +609,12 @@ public class CajerosIDE extends javax.swing.JFrame {
 
         if (cliente.isClienteImagen()) {
 
-            //ruta = "assets\\\\cliente2.png";
-            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente2.png";
+            ruta = "assets\\\\cliente2.png";
+           // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente2.png";
 
         } else {
-            //ruta = "assets\\\\cliente1.png";
-            ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente1.png";
+            ruta = "assets\\\\cliente1.png";
+           // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente1.png";
         }
 
         if (cliente.getNumArticulos() <= 10) {
@@ -670,7 +632,7 @@ public class CajerosIDE extends javax.swing.JFrame {
         }
 
     }
-
+     
     private void crearCliente() {
 
         Cliente cliente = new Cliente();
@@ -701,15 +663,23 @@ public class CajerosIDE extends javax.swing.JFrame {
         } else {
 
             crearCajaNueva(cliente);
-            
+
         }
     }
 
     private void crearCajaNueva(Cliente cliente) {
+        Caja nuevaCaja = null;
 
-        Caja nuevaCaja = new Caja(cliente.getNumArticulos() <= 10);
+        if (cliente.getNumArticulos() <= 10) {
+
+            nuevaCaja = new Caja(false);
+
+        } else {
+            nuevaCaja = new Caja(true);
+        }
 
         if (cliente.getNumArticulos() <= 10 && cajerosRapidosAbiertos.size() < MAXCAJASR) {
+            
             nuevaCaja.getCola().add(cliente);
             cajerosRapidosAbiertos.add(nuevaCaja);
 
@@ -720,13 +690,57 @@ public class CajerosIDE extends javax.swing.JFrame {
         }
 
         if (cliente.getNumArticulos() >= 11 && cajerosNormalesAbiertos.size() < MAXCAJASN) {
+            
             nuevaCaja.getCola().add(cliente);
+            
             cajerosNormalesAbiertos.add(nuevaCaja);
 
             imprimirCajeroImagen(cajerosNormalesAbiertos.size(), cajerosNormalesAbiertos.get(cajerosNormalesAbiertos.size() - 1));
 
             System.out.println("numero cajeros normales abiertos" + cajerosNormalesAbiertos.size());
 
+        }
+        System.out.println("Se llenaron los cajeros");
+    }
+
+    private void imprimirCajeroImagen(int indice, Caja caja) {
+        String ruta = null;
+
+        if (caja.isCajaImagen()) {
+
+            ruta = "assets\\\\cajeroaux2.png";
+            //ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroaux2.png";
+        } else {
+            ruta = "assets\\\\cajeroaux1.png";
+            //ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroaux1.png";
+        }
+
+        if (!caja.isTipoCaja()) {
+
+            obtenerCajaRapida(indice).setText("" + caja.isTipoCaja());
+
+            setImagen(obtenerCajaRapida(indice), ruta);
+
+        } else {
+
+            obtenerCajaNormal(indice).setText("" + caja.isTipoCaja());
+
+            setImagen(obtenerCajaNormal(indice), ruta);
+        }
+
+    }
+
+    private void setImagen(JLabel label, String rutaImagen) {
+
+        File archivoImagen = new File(rutaImagen);
+
+        if (archivoImagen.exists()) {
+
+            label.setIcon(new ImageIcon(rutaImagen));
+
+        } else {
+
+            JOptionPane.showMessageDialog(this, "Imagen no encontrada", "ERROR", JOptionPane.ERROR_MESSAGE);
         }
     }
 
