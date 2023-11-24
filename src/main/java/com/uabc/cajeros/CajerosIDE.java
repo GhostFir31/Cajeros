@@ -32,7 +32,8 @@ public class CajerosIDE extends javax.swing.JFrame {
     private int registroID = 1;
     private int MAXCAJASR = 3;
     private int MAXCAJASN = 10;
-    private boolean firstRun = true;
+    private boolean cajasRapidasLlenas = false;
+    private boolean cajasNormalesLlenas = false;
 
     public CajerosIDE() {
 
@@ -425,160 +426,254 @@ public class CajerosIDE extends javax.swing.JFrame {
 
     }
 
-   
-    public JLabel obtenerClientesCajaRapida(int indice) {
+    public JLabel obtenerClientesCajaRapida(int numeroCaja, int lugarCliente) {
 
-        switch (indice) {
+        switch (numeroCaja) {
+
             case 1:
-                return ClienteR11;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteR11;
+                    case 2:
+                        return ClienteR12;
+                    case 3:
+                        return ClienteR13;
+                    case 4:
+                        return ClienteR14;
+                    case 5:
+                        return ClienteR15;
+
+                    default:
+                        System.out.println("caja Rapida 1 cliente fuera del indice");
+                }
             case 2:
-                return ClienteR12;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteR21;
+                    case 2:
+                        return ClienteR22;
+                    case 3:
+                        return ClienteR23;
+                    case 4:
+                        return ClienteR24;
+                    case 5:
+                        return ClienteR25;
+
+                    default:
+                        System.out.println("caja Rapida 2 cliente fuera del indice");
+                }
+
             case 3:
-                return ClienteR13;
-            case 4:
-                return ClienteR14;
-            case 5:
-                return ClienteR15;
-            case 6:
-                return ClienteR21;
-            case 7:
-                return ClienteR22;
-            case 8:
-                return ClienteR23;
-            case 9:
-                return ClienteR24;
-            case 10:
-                return ClienteR25;
-            case 11:
-                return ClienteR31;
-            case 12:
-                return ClienteR32;
-            case 13:
-                return ClienteR33;
-            case 14:
-                return ClienteR34;
-            case 15:
-                return ClienteR35;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteR31;
+                    case 2:
+                        return ClienteR32;
+                    case 3:
+                        return ClienteR33;
+                    case 4:
+
+                        return ClienteR34;
+                    case 5:
+
+                        return ClienteR35;
+
+                    default:
+                        System.out.println("caja Rapida 3 cliente fuera del indice");
+                }
 
             default:
-                throw new IllegalArgumentException("Indice Fuera de Rango");
+                System.out.println("Indice Fuera de Rango Clientes Cajas Rapidas");
+
+                return null;
         }
 
     }
 
-    public JLabel obtenerClientesCajaNormal(int indice) {
+    public JLabel obtenerClientesCajaNormal(int numeroCaja, int lugarCliente) {
 
-        switch (indice) {
+        switch (numeroCaja) {
 
             case 1:
-                return ClienteN11;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN11;
+                    case 2:
+                        return ClienteN12;
+                    case 3:
+                        return ClienteN13;
+                    case 4:
+                        return ClienteN14;
+                    case 5:
+                        return ClienteN15;
+
+                    default:
+                        System.out.println("caja Normal 1 cliente fuera del indice");
+                }
             case 2:
-                return ClienteN12;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN21;
+                    case 2:
+                        return ClienteN22;
+                    case 3:
+                        return ClienteN23;
+                    case 4:
+                        return ClienteN24;
+                    case 5:
+                        return ClienteN25;
+
+                    default:
+                        System.out.println("caja Normal 2 cliente fuera del indice");
+                }
+
             case 3:
-                return ClienteN13;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN31;
+                    case 2:
+                        return ClienteN32;
+                    case 3:
+                        return ClienteN33;
+                    case 4:
+                        return ClienteN34;
+                    case 5:
+                        return ClienteN35;
+
+                    default:
+                        System.out.println("caja Normal 3 cliente fuera del indice");
+                }
+
             case 4:
-                return ClienteN14;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN41;
+                    case 2:
+                        return ClienteN42;
+                    case 3:
+                        return ClienteN43;
+                    case 4:
+                        return ClienteN44;
+                    case 5:
+                        return ClienteN45;
+
+                    default:
+                        System.out.println("caja Normal 4 cliente fuera del indice");
+                }
+
             case 5:
-                return ClienteN15;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN51;
+                    case 2:
+                        return ClienteN52;
+                    case 3:
+                        return ClienteN53;
+                    case 4:
+                        return ClienteN54;
+                    case 5:
+                        return ClienteN55;
+
+                    default:
+                        System.out.println("caja Normal 5 cliente fuera del indice");
+                }
+
             case 6:
-                return ClienteN21;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN61;
+                    case 2:
+                        return ClienteN62;
+                    case 3:
+                        return ClienteN63;
+                    case 4:
+                        return ClienteN64;
+                    case 5:
+                        return ClienteN65;
+
+                    default:
+                        System.out.println("caja Normal 6 cliente fuera del indice");
+                }
+
             case 7:
-                return ClienteN22;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN71;
+                    case 2:
+                        return ClienteN72;
+                    case 3:
+                        return ClienteN73;
+                    case 4:
+                        return ClienteN74;
+                    case 5:
+                        return ClienteN75;
+
+                    default:
+                        System.out.println("caja Normal 7 cliente fuera del indice");
+                }
+
             case 8:
-                return ClienteN23;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN81;
+                    case 2:
+                        return ClienteN82;
+                    case 3:
+                        return ClienteN83;
+                    case 4:
+                        return ClienteN84;
+                    case 5:
+                        return ClienteN85;
+
+                    default:
+                        System.out.println("caja Normal 8 cliente fuera del indice");
+                }
+
             case 9:
-                return ClienteN24;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN91;
+                    case 2:
+                        return ClienteN92;
+                    case 3:
+                        return ClienteN93;
+                    case 4:
+                        return ClienteN94;
+                    case 5:
+                        return ClienteN95;
+
+                    default:
+                        System.out.println("caja Normal 9 cliente fuera del indice");
+                }
+
             case 10:
-                return ClienteN25;
-            case 11:
-                return ClienteN31;
-            case 12:
-                return ClienteN32;
-            case 13:
-                return ClienteN33;
-            case 14:
-                return ClienteN34;
-            case 15:
-                return ClienteN35;
-            case 16:
-                return ClienteN41;
-            case 17:
-                return ClienteN42;
-            case 18:
-                return ClienteN43;
-            case 19:
-                return ClienteN44;
-            case 20:
-                return ClienteN45;
-            case 21:
-                return ClienteN51;
-            case 22:
-                return ClienteN52;
-            case 23:
-                return ClienteN53;
-            case 24:
-                return ClienteN54;
-            case 25:
-                return ClienteN55;
-            case 26:
-                return ClienteN61;
-            case 27:
-                return ClienteN62;
-            case 28:
-                return ClienteN63;
-            case 29:
-                return ClienteN64;
-            case 30:
-                return ClienteN65;
-            case 31:
-                return ClienteN71;
-            case 32:
-                return ClienteN72;
-            case 33:
-                return ClienteN73;
-            case 34:
-                return ClienteN74;
-            case 35:
-                return ClienteN75;
-            case 36:
-                return ClienteN81;
-            case 37:
-                return ClienteN82;
-            case 38:
-                return ClienteN83;
-            case 39:
-                return ClienteN84;
-            case 40:
-                return ClienteN85;
-            case 41:
-                return ClienteN91;
-            case 42:
-                return ClienteN92;
-            case 43:
-                return ClienteN93;
-            case 44:
-                return ClienteN94;
-            case 45:
-                return ClienteN95;
-            case 46:
-                return ClienteN101;
-            case 47:
-                return ClienteN102;
-            case 48:
-                return ClienteN103;
-            case 49:
-                return ClienteN104;
-            case 50:
-                return ClienteN105;
+                switch (lugarCliente) {
+                    case 1:
+                        return ClienteN101;
+                    case 2:
+                        return ClienteN102;
+                    case 3:
+                        return ClienteN103;
+                    case 4:
+                        return ClienteN104;
+                    case 5:
+
+                        return ClienteN105;
+
+                    default:
+                        System.out.println("caja Normal 10 cliente fuera del indice");
+                }
 
             default:
-                throw new IllegalArgumentException("Indice Fuera de Rango");
+                System.out.println("Indice Fuera de Rango Clientes Cajas Normales");
+
+                return null;
         }
 
     }
-     
 
     private void limpiarLabels() {
+
         for (int i = 1; i <= 3; i++) {
             setImagen(obtenerCajaRapida(i), "assets\\\\cajeroCerrado.png");
             //setImagen(obtenerCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
@@ -587,87 +682,68 @@ public class CajerosIDE extends javax.swing.JFrame {
             setImagen(obtenerCajaNormal(i), "assets\\\\cajeroCerrado.png");
             //setImagen(obtenerCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/cajeroCerrado.png");
         }
-          for (int i = 1; i <= 15; i++) {
-            setImagen(obtenerClientesCajaRapida(i), "assets\\\\ausente.png");
-            //setImagen(obtenerClientesCajaRapida(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 5; j++) {
+                setImagen(obtenerClientesCajaRapida(i, j), "assets\\\\ausente.png");
+                //setImagen(obtenerClientesCajaRapida(i,j), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
+            }
         }
-
-        for (int i = 1; i <= 50; i++) {
-             setImagen(obtenerClientesCajaNormal(i), "assets\\\\ausente.png");
-            //setImagen(obtenerClientesCajaNormal(i), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
-        }
-
-    }
-
-    
-    private void imprimirCliente() {
-
-    }
-
-    private void imprimirClienteImagen(int indice, Cliente cliente) {
-        String ruta = null;
-
-        if (cliente.isClienteImagen()) {
-
-            ruta = "assets\\\\cliente2.png";
-           // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente2.png";
-
-        } else {
-            ruta = "assets\\\\cliente1.png";
-           // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente1.png";
-        }
-
-        if (cliente.getNumArticulos() <= 10) {
-
-            obtenerClientesCajaRapida(indice).setText("" + cliente.getNumArticulos());
-
-            setImagen(obtenerClientesCajaRapida(indice), ruta);
-
-        } else {
-
-            obtenerClientesCajaNormal(indice).setText("" + cliente.getNumArticulos());
-
-            setImagen(obtenerClientesCajaNormal(indice), ruta);
-
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 1; j <= 5; j++) {
+                setImagen(obtenerClientesCajaNormal(i, j), "assets\\\\ausente.png");
+                //setImagen(obtenerClientesCajaNormal(i,j), "/home/omarleal/NetBeansProjects/Cajeros/assets/ausente.png");
+            }
         }
 
     }
-     
+
     private void crearCliente() {
 
         Cliente cliente = new Cliente();
 
-        if (cliente.getNumArticulos() <= 10) {
+        if (cliente.getNumArticulos() <= 10 && !cajasNormalesLlenas) {
 
             asignarClienteACaja(cajerosRapidosAbiertos, cliente);
 
-        } else {
+        } else if (cliente.getNumArticulos() >= 11 && !cajasRapidasLlenas) {
 
             asignarClienteACaja(cajerosNormalesAbiertos, cliente);
 
         }
+
     }
 
     private void asignarClienteACaja(ArrayList<Caja> cajerosAbiertos, Cliente cliente) {
+        int indiceCajaActual = 0;
+        int posicion;
+        Caja cajaActual = null;
 
-        Random random = new Random();
+        for (posicion = 0; posicion < cajerosAbiertos.size(); posicion++) {
+            Caja cajaExaminar = cajerosAbiertos.get(posicion);
+            if (cajaExaminar.getCola().size() < 5) {
+                indiceCajaActual = posicion;
+                break;
+            }
+        }
 
-        int indiceCaja = random.nextInt(cajerosAbiertos.size());
+        cajaActual = cajerosAbiertos.get(indiceCajaActual);
 
-        Caja cajaActual = cajerosAbiertos.get(indiceCaja);
-
-        if (cajaActual.getCola().size() <= 5) {
+        if (cajaActual.getCola().size() < 5) {
 
             cajaActual.getCola().add(cliente);
 
+            imprimirClienteImagen(indiceCajaActual + 1, cajaActual.getCola().size(), cliente);
+            cajaActual.setTiempoVacia(0);
         } else {
 
-            crearCajaNueva(cliente);
+            crearCajaNueva(cliente, cajerosAbiertos.size());
 
         }
+
     }
 
-    private void crearCajaNueva(Cliente cliente) {
+    private void crearCajaNueva(Cliente cliente, int indiceCajaActual) {
+
         Caja nuevaCaja = null;
 
         if (cliente.getNumArticulos() <= 10) {
@@ -675,32 +751,36 @@ public class CajerosIDE extends javax.swing.JFrame {
             nuevaCaja = new Caja(false);
 
         } else {
+
             nuevaCaja = new Caja(true);
+
         }
 
         if (cliente.getNumArticulos() <= 10 && cajerosRapidosAbiertos.size() < MAXCAJASR) {
-            
+
             nuevaCaja.getCola().add(cliente);
+
             cajerosRapidosAbiertos.add(nuevaCaja);
 
-            imprimirCajeroImagen(cajerosRapidosAbiertos.size(), cajerosRapidosAbiertos.get(cajerosRapidosAbiertos.size() - 1));
+            imprimirCajeroImagen(indiceCajaActual + 1, cajerosRapidosAbiertos.get(indiceCajaActual - 1));
 
-            System.out.println("numero cajeros rapidos abiertos" + cajerosRapidosAbiertos.size());
+            //  System.out.println("cajeros Rapidos abiertos " + cajerosRapidosAbiertos.size());
+        } else if (cliente.getNumArticulos() >= 11 && cajerosNormalesAbiertos.size() < MAXCAJASN) {
 
-        }
-
-        if (cliente.getNumArticulos() >= 11 && cajerosNormalesAbiertos.size() < MAXCAJASN) {
-            
             nuevaCaja.getCola().add(cliente);
-            
+
             cajerosNormalesAbiertos.add(nuevaCaja);
 
-            imprimirCajeroImagen(cajerosNormalesAbiertos.size(), cajerosNormalesAbiertos.get(cajerosNormalesAbiertos.size() - 1));
+            imprimirCajeroImagen(indiceCajaActual + 1, cajerosNormalesAbiertos.get(indiceCajaActual - 1));
 
-            System.out.println("numero cajeros normales abiertos" + cajerosNormalesAbiertos.size());
+            // System.out.println("cajeros Normales abiertos " + cajerosNormalesAbiertos.size());
+        } else {
 
+            //  System.out.println("Se llenaron los cajeros");
+            return;
         }
-        System.out.println("Se llenaron los cajeros");
+
+        imprimirClienteImagen(indiceCajaActual + 1, nuevaCaja.getCola().size(), cliente);
     }
 
     private void imprimirCajeroImagen(int indice, Caja caja) {
@@ -717,15 +797,59 @@ public class CajerosIDE extends javax.swing.JFrame {
 
         if (!caja.isTipoCaja()) {
 
-            obtenerCajaRapida(indice).setText("" + caja.isTipoCaja());
+           // obtenerCajaRapida(indice).setText("" + caja.isTipoCaja());
 
             setImagen(obtenerCajaRapida(indice), ruta);
 
         } else {
 
-            obtenerCajaNormal(indice).setText("" + caja.isTipoCaja());
+          //  obtenerCajaNormal(indice).setText("" + caja.isTipoCaja());
 
             setImagen(obtenerCajaNormal(indice), ruta);
+        }
+
+    }
+
+    public String determinarTipoCliente(Cliente cliente) {
+        String ruta = null;
+
+        if (cliente.isClienteImagen()) {
+
+            ruta = "assets\\\\cliente2.png";
+            // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente2.png";
+
+        } else {
+            ruta = "assets\\\\cliente1.png";
+            // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente1.png";
+        }
+        return ruta;
+    }
+
+    private void imprimirClienteImagen(int numCaja, int lugarClienteCola, Cliente cliente) {
+        String ruta = null;
+
+        if (cliente.isClienteImagen()) {
+
+            ruta = "assets\\\\cliente2.png";
+            // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente2.png";
+
+        } else {
+            ruta = "assets\\\\cliente1.png";
+            // ruta = "/home/omarleal/NetBeansProjects/Cajeros/assets/cliente1.png";
+        }
+
+        if (cliente.getNumArticulos() <= 10) {
+
+            obtenerClientesCajaRapida(numCaja, lugarClienteCola).setText("" + cliente.getNumArticulos());
+
+            setImagen(obtenerClientesCajaRapida(numCaja, lugarClienteCola), ruta);
+
+        } else {
+
+            obtenerClientesCajaNormal(numCaja, lugarClienteCola).setText("" + cliente.getNumArticulos());
+
+            setImagen(obtenerClientesCajaNormal(numCaja, lugarClienteCola), ruta);
+
         }
 
     }
@@ -744,10 +868,104 @@ public class CajerosIDE extends javax.swing.JFrame {
         }
     }
 
-    public void restarTiempo() {
+    public void actualizarClientes() {
+        for (Caja caja : cajerosRapidosAbiertos) {
+            Queue<Cliente> cola = caja.getCola();
+            if (!cola.isEmpty()) {
+                cola.peek().aumentarTiempoEnCaja();
+                int numCaja = cajerosRapidosAbiertos.indexOf(caja) + 1;
 
-        this.tiempoSimulacion -= 1000;
+                if (cola.peek().getTiempoEnCaja() >= caja.getTiempoPagar()) {
+                    cola.poll();
+                    actualizarInterfaz(caja, numCaja);
+                }
+            }
+        }
 
+        for (Caja caja : cajerosNormalesAbiertos) {
+            Queue<Cliente> cola = caja.getCola();
+            if (!cola.isEmpty()) {
+                cola.peek().aumentarTiempoEnCaja();
+                int numCaja = cajerosNormalesAbiertos.indexOf(caja) + 1;
+
+                if (cola.peek().getTiempoEnCaja() >= caja.getTiempoPagar()) {
+                    cola.poll();
+                    actualizarInterfaz(caja, numCaja);
+
+                }
+            }
+        }
+    }
+
+    private void actualizarInterfaz(Caja caja, int numCaja) {
+        if (!caja.isTipoCaja()) {
+            Queue<Cliente> cola = caja.getCola();
+
+            for (int i = 1; i <= 5; i++) {
+                obtenerClientesCajaRapida(numCaja, i).setText("");
+                setImagen(obtenerClientesCajaRapida(numCaja, i), "assets\\\\ausente.png");
+            }
+
+            int i = 1;
+            for (Cliente cliente : cola) {
+                obtenerClientesCajaRapida(numCaja, i).setText("" + cliente.getNumArticulos());
+                setImagen(obtenerClientesCajaRapida(numCaja, i), determinarTipoCliente(cliente));
+                i++;
+                if (i > 5) {
+                    break;
+                }
+            }
+        } else {
+            Queue<Cliente> cola = caja.getCola();
+
+            for (int i = 1; i <= 5; i++) {
+                obtenerClientesCajaNormal(numCaja, i).setText("");
+                setImagen(obtenerClientesCajaNormal(numCaja, i), "assets\\\\ausente.png");
+            }
+
+            int i = 1;
+            for (Cliente cliente : cola) {
+                obtenerClientesCajaNormal(numCaja, i).setText("" + cliente.getNumArticulos());
+                setImagen(obtenerClientesCajaNormal(numCaja, i), determinarTipoCliente(cliente));
+                i++;
+                if (i > 5) {
+                    break;
+                }
+            }
+        }
+    }
+
+    public void actualizarCajeros() {
+
+        for (int i = 1; i < cajerosRapidosAbiertos.size(); i++) {
+            Caja caja = cajerosRapidosAbiertos.get(i);
+
+            if (caja.getCola().isEmpty()) {
+                caja.aumentarTiempoVacia();
+            }
+
+            if (caja.getTiempoVacia() == 5000) {
+                obtenerCajaRapida(i + 1).setText("");
+                setImagen(obtenerCajaRapida(i + 1), "assets\\\\cajeroCerrado.png");
+                cajerosRapidosAbiertos.remove(i);
+
+            }
+        }
+
+        for (int j = 1; j < cajerosNormalesAbiertos.size(); j++) {
+            Caja caja = cajerosNormalesAbiertos.get(j);
+
+            if (caja.getCola().isEmpty()) {
+                caja.aumentarTiempoVacia();
+            }
+
+            if (caja.getTiempoVacia() == 5000) {
+                obtenerCajaNormal(j + 1).setText("");
+                setImagen(obtenerCajaNormal(j + 1), "assets\\\\cajeroCerrado.png");
+                cajerosNormalesAbiertos.remove(j);
+
+            }
+        }
     }
 
     private void iniciarSimulacion() {
@@ -767,6 +985,9 @@ public class CajerosIDE extends javax.swing.JFrame {
                 System.out.println("Tiempo Restante=" + tiempoSimulacion);
 
                 crearCliente();
+                //crearCliente();
+                actualizarClientes();
+                actualizarCajeros();
 
                 if (tiempoSimulacion <= 0) {
 
@@ -780,9 +1001,15 @@ public class CajerosIDE extends javax.swing.JFrame {
             }
         };
 
-        timer.schedule(ejecutar, 0, 1000);
+        timer.schedule(ejecutar, 0, Tiempo);
     }
+    private int Tiempo = 1000;
 
+    public void restarTiempo() {
+
+        this.tiempoSimulacion -= Tiempo;
+
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel CajaN1;

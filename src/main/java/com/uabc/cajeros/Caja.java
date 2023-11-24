@@ -75,15 +75,18 @@ public class Caja {
         Random rand = new Random();
             // false 1-10 // true 11+
         if (!tipoCaja) {
+            
              return tiempoPagar = rand.nextInt(5000) + 10000;// 5-10 seg = 300-600 seg
            
         } else {
 
              return tiempoPagar = rand.nextInt(10000) + 15000;// 10-15 min = 600-900 seg
         }
+        
     }
 
     private int determinarTiempoLlegada() {
+        
         Random rand = new Random();
 
         if (!tipoCaja) {

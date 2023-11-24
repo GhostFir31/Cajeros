@@ -15,11 +15,14 @@ public class Cliente {
     Random rand = new Random();
     
     private int numArticulos;
+    private int tiempoEnCaja;
     private boolean clienteImagen;
+    
 
     public Cliente() {
 
         this.numArticulos = rand.nextInt(21) + 1;
+        this.tiempoEnCaja=0;
         this.clienteImagen=rand.nextBoolean();
         
     }
@@ -32,11 +35,25 @@ public class Cliente {
         return numArticulos;
     }
 
+    public int getTiempoEnCaja() {
+        return tiempoEnCaja;
+    }
+
+    public void setTiempoEnCaja(int tiempoEnCaja) {
+        this.tiempoEnCaja = tiempoEnCaja;
+    }
+
 
 
     @Override
     public String toString() {
-        return "CA=" + numArticulos;
+        return "CA=" + numArticulos + "tiempoCaja"+tiempoEnCaja;
+    }
+
+    void aumentarTiempoEnCaja() {
+        
+        this.tiempoEnCaja=tiempoEnCaja+4000;
+        
     }
 
 }
